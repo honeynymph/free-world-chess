@@ -1,13 +1,18 @@
 # free-world-chess
 A free global chess rating system that's decentralized using cryptography. 
 
-The current global chess organization is rife with ethical and social issues. We need a decentralized system to keep chess chess and politics politics. I propose creating such a system using cryptography. I see this working using a few different components: 
+The current global chess organization is rife with ethical and social issues. We need a decentralized system to keep chess chess and politics politics. I propose creating such a system using cryptography. I see this working using the SCP consensus protocol which is a construction for FBA, federated Byzantine agreement, and runs the Stellar Lumen network. 
 
-a) Every player has a secret key which they use to prove they are that player -- perhaps they use a new one for every change. 
-b) Every player can do a simple check to ensure that the version of the ratings they have is the most current and therefore most accurate. 
-c) Typically it's proof-of-work that makes b) possible and public key crypto that makes a) possible -- at least with cryptocurrency.
+SCP is decentralized, low-latency, flexible on trust, and has asymptotic security -- the ability to be safe from adversaries with a lot more computing power. Furthermore, SCP does not waste computing resources as in proof-of-work schemes. 
+
+From the included SCP white paper *The Stellar Consensus Protocol: A Federated Model for Internet-level Consensus*
+
+>In FBA, each participant knows of others it considers important. It waits for the vast majority of those others to agree on any transaction before considering the transaction settled. In turn, those important participants do not agree to the transaction until the participants they consider important agree as well, and so on. Eventually,enough of the network accepts a transaction that it becomes infeasible for an attacker to roll it back. Only then do any participants consider the transaction settled.
+
+I imagine a network wherein the "important" participants that nodes monitor are perhaps as important as they are highly rated, or popular. Like, Kasparov and USCF. This seems natural as these participants have the most to lose if they rate someone incorrectly.
 
 I hope we can change chess for the better. This would really do it.
+
 --honeynymph
 
 
