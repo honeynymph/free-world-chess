@@ -14,9 +14,9 @@ I imagine a network wherein the "important" participants that nodes monitor are 
 I hope we can change chess for the better. This would really do it. I am eagerly awaiting your pull requests! 
 
 You can find me on 
-- my chess channel's Discord discord.gg/mxBbaH
-- Twitter twitter.com/honeynymph
-- or on the lichess.org Discord top.gg/servers/280713822073913354/join
+- my chess channel's [Discord](discord.gg/mxBbaH)
+- [Twitter](twitter.com/honeynymph)
+- or on the [lichess.org Discord](top.gg/servers/280713822073913354/join)
 
 
 
